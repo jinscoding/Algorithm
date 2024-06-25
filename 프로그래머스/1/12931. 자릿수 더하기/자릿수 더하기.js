@@ -1,8 +1,8 @@
 const solution = (n) => {
-    let strNum = n.toString();
+    const strNum = n.toString();
     let sum = 0;
     for (let element of strNum) {
-        sum += Number(index);
+        sum += Number(element);
     }
     return sum;
 }
